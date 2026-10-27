@@ -1,0 +1,23 @@
+{
+  "resourceType": "Patient",
+  "identifier": [
+    {
+      "system": "https://interop.test/hospital/patients",
+      "value": "PAT001"
+    },
+    {
+      "system": "https://interop.test/emergency/patients",
+      "value": "ER-P001"
+    },
+    {
+      "system": "https://interop.test/pharmacy/patients",
+      "value": "PH-P874"
+    },
+    {
+      "system": "https://interop.test/inpatient/patients",
+      "value": "IP-P144"
+    }
+  ],
+  "birthDate": "2018-03-12",
+  "gender": "female"
+}

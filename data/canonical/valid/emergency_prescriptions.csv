@@ -1,0 +1,2 @@
+er_prescription_id,hospital_patient_id,er_encounter_id,prescriber_id,medication_code,dose_value,dose_unit,route,frequency,prescribed_at,status
+ER-RX001,PAT001,ER-E001,DOC023,PARA-INF,500,mg,IV,ONCE,2026-10-06T14:50:00+01:00,ACTIVE

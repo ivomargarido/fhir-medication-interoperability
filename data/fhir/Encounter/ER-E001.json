@@ -1,0 +1,25 @@
+{
+  "resourceType": "Encounter",
+  "identifier": [
+    {
+      "system": "https://interop.test/emergency/encounters",
+      "value": "ER-E001"
+    }
+  ],
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "EMER",
+    "display": "emergency"
+  },
+  "subject": {
+    "identifier": {
+      "system": "https://interop.test/hospital/patients",
+      "value": "PAT001"
+    }
+  },
+  "period": {
+    "start": "2026-10-06T13:42:00+01:00",
+    "end": "2026-10-06T16:05:00+01:00"
+  }
+}

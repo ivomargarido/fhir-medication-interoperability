@@ -1,0 +1,5 @@
+practitioner_master_id,role,display_name
+PRAC001,PHYSICIAN,Synthetic Doctor 001
+PRAC002,NURSE,Synthetic Nurse 001
+PRAC003,PHARMACIST,Synthetic Pharmacist 001
+PRAC004,PHYSICIAN,Synthetic Doctor 002

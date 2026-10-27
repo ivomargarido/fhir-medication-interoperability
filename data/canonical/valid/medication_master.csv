@@ -1,0 +1,2 @@
+canonical_medication_id,substance,concentration_value,concentration_unit,form
+MED001,Paracetamol,10,mg/mL,SOLUTION_FOR_INFUSION

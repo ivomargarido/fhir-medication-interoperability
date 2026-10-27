@@ -1,0 +1,57 @@
+{
+  "resourceType": "MedicationRequest",
+  "identifier": [
+    {
+      "system": "https://interop.test/emergency/prescriptions",
+      "value": "ER-RX001"
+    }
+  ],
+  "status": "active",
+  "intent": "order",
+  "medicationReference": {
+    "identifier": {
+      "system": "https://interop.test/hospital/medications",
+      "value": "MED001"
+    }
+  },
+  "subject": {
+    "identifier": {
+      "system": "https://interop.test/hospital/patients",
+      "value": "PAT001"
+    }
+  },
+  "encounter": {
+    "identifier": {
+      "system": "https://interop.test/emergency/encounters",
+      "value": "ER-E001"
+    }
+  },
+  "authoredOn": "2026-10-06T14:50:00+01:00",
+  "requester": {
+    "identifier": {
+      "system": "https://interop.test/hospital/practitioners",
+      "value": "PRAC001"
+    }
+  },
+  "dosageInstruction": [
+    {
+      "text": "500 mg IV ONCE",
+      "route": {
+        "text": "IV"
+      },
+      "doseAndRate": [
+        {
+          "doseQuantity": {
+            "value": 500.0,
+            "unit": "mg"
+          }
+        }
+      ],
+      "timing": {
+        "repeat": {
+          "count": 1
+        }
+      }
+    }
+  ]
+}

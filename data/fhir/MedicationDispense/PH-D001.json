@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationDispense",
+  "identifier": [
+    {
+      "system": "https://interop.test/pharmacy/dispenses",
+      "value": "PH-D001"
+    }
+  ],
+  "status": "completed",
+  "medicationReference": {
+    "identifier": {
+      "system": "https://interop.test/hospital/medications",
+      "value": "MED001"
+    }
+  },
+  "subject": {
+    "identifier": {
+      "system": "https://interop.test/hospital/patients",
+      "value": "PAT001"
+    }
+  },
+  "authorizingPrescription": [
+    {
+      "identifier": {
+        "system": "https://interop.test/emergency/prescriptions",
+        "value": "ER-RX001"
+      }
+    }
+  ],
+  "quantity": {
+    "value": 1.0,
+    "unit": "VIAL"
+  },
+  "whenHandedOver": "2026-10-06T15:00:00+01:00",
+  "performer": [
+    {
+      "actor": {
+        "identifier": {
+          "system": "https://interop.test/hospital/practitioners",
+          "value": "PRAC003"
+        }
+      }
+    }
+  ]
+}

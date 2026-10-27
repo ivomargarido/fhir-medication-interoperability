@@ -1,0 +1,4 @@
+source_system,source_code,canonical_medication_id
+EMERGENCY,PARA-INF,MED001
+PHARMACY,PAR10MGML,MED001
+INPATIENT,PCM-IV,MED001

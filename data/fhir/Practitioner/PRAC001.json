@@ -1,0 +1,18 @@
+{
+  "resourceType": "Practitioner",
+  "identifier": [
+    {
+      "system": "https://interop.test/hospital/practitioners",
+      "value": "PRAC001"
+    },
+    {
+      "system": "https://interop.test/emergency/practitioners",
+      "value": "DOC023"
+    }
+  ],
+  "name": [
+    {
+      "text": "Synthetic Doctor 001"
+    }
+  ]
+}

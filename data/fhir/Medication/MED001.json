@@ -1,0 +1,22 @@
+{
+  "resourceType": "Medication",
+  "identifier": [
+    {
+      "system": "https://interop.test/hospital/medications",
+      "value": "MED001"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://interop.test/fhir/CodeSystem/medications",
+        "code": "MED001",
+        "display": "Paracetamol"
+      }
+    ],
+    "text": "Paracetamol"
+  },
+  "form": {
+    "text": "SOLUTION_FOR_INFUSION"
+  }
+}
