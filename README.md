@@ -535,15 +535,13 @@ fhir-medication-interoperability/
 ├── scripts/
 |   └── load_case_base.ps1
 |
-├── src/
-|   ├── identity/
-|   ├── loaders/
-|   ├── mappings/
-|   ├── terminology/
-|   └── validators/
-|
-└── tools/
-    └── validator_cli.jar
+└── src/
+    ├── identity/
+    ├── loaders/
+    ├── mappings/
+    ├── terminology/
+    └── validators/
+
 ```
 
 `requirements.txt` currently contains:
@@ -552,8 +550,10 @@ fhir-medication-interoperability/
 pandas
 ```
 
-The `docs/` folder is kept for additional project documentation that may be
-added later.
+The `docs/` folder contains additional documentation for the project:
+
+- `acceptance_tests.md` — detailed acceptance tests and results;
+- `technical_notes.md` — main technical decisions and findings from the prototype.
 
 ---
 
